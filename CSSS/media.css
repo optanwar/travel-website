@@ -1,0 +1,185 @@
+/*  **********************Media Queries************** */
+
+/* 500 or 500 se kam */
+
+@media (max-width:500px)
+{
+    html {
+        /* font-size: 8px; */
+        font-size: 50%;
+        
+    }
+    .navbar .nav-items , .navbar .logo
+    {
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .header-content .main-heading
+
+    {
+       display: none;
+    } 
+    .row
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+      
+    }
+    
+    .features .box 
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(102,102,102,0.521);
+    }
+    .features .box-2,
+    .features .box-3
+    {
+         margin-top: 7rem;
+    }
+    .box-wrapper
+{
+    box-shadow: none;
+}
+  .cta-banner .cta-banner-left,
+  .cta-banner .cta-banner-right
+  {
+    float: none;
+    width: 100%;
+    display:inline ;
+    text-align: center;
+
+  }
+ .btn-cta
+ {
+    width: 100%;
+ }
+
+  .form-wrapper .company-adress
+  {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .form-wrapper .form
+  {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (min-width:501px ) and (max-width:768px)
+{
+    html 
+    {
+        font-size: 8px;
+
+    }
+    p
+    {
+        font-size: 1.8rem;
+    }
+    .navbar .nav-items , .navbar .logo
+    {
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .row
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+      
+    }
+    
+    .features .box 
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(102,102,102,0.521);
+    }
+    .features .box-2,
+    .features .box-3
+    {
+         margin-top: 7rem;
+    }
+    .box-wrapper
+{
+    box-shadow: none;
+}
+  .cta-banner .cta-banner-left,
+  .cta-banner .cta-banner-right
+  {
+    float: none;
+    width: 100%;
+    display:inline ;
+    text-align: center;
+
+  }
+ .btn-cta
+ {
+    width: 100%;
+ }
+
+  .form-wrapper .company-adress
+  {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .form-wrapper .form
+  {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1200px)
+{
+    html  
+    {
+        font-size: 56.25%;
+    }
+    .row .text-box h2 
+    {
+        font-size: 2.2rem;
+        font-weight: 4500;
+    }
+}
+
+
+@media (orientation: landscape) and (max-height:500px)
+{
+    .header
+    {
+         height: 90vmax;
+    }
+}
